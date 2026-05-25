@@ -45,3 +45,37 @@ http://213.188.195.234/
 
 # 免费节点
 http://wxshi.top:9090/
+# 自己添加的
+https://goclash.topmarco.tech/#油管
+
+https://chromego-sub.netlify.app/sub/base64.txt#油管
+
+https://gcore.jsdelivr.net/gh/linzjian666/chromego_extractor@main/outputs/base64.txt#油管
+
+https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt#油管
+
+https://clashgithub.com/wp-content/uploads/rss/{Ymd}.txt
+
+https://oneclash.githubrowcontent.com/{Y}/{m}/{Ymd}.txt
+
+https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt
+
+https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt 
+
+https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub#新加
+
+https://freeproxy.20101103.xyz/MENG?b64&v=
+
+http://proxypool.zshabai.cc/
+
+http://proxypool2.zshabai.cc/
+
+https://d.zrfme.com/vless-all
+
+https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml
+
+https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt
+
+https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_base64.txt
+
+https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt
