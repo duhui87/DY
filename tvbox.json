@@ -1,5 +1,15 @@
 {
-  "sites": [],
+  "sites": [
+    {
+      "key": "360_spider",
+      "name": "360资源（测试点播源）",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
   "parses": [
     {
       "name": "TXNQ解析",
