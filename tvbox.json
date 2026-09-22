@@ -27,6 +27,42 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "hongniu",
+      "name": "红牛资源",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hongniu_m3u8",
+      "name": "红牛资源M3U8",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xinlang",
+      "name": "新浪资源",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xinlang_m3u8",
+      "name": "新浪资源M3U8",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "parses": [
@@ -44,6 +80,21 @@
       "name": "量子解析",
       "type": 3,
       "url": "https://jx.lziapi.com/?url="
+    },
+    {
+      "name": "红牛P2P加速解析",
+      "type": 3,
+      "url": "https://www.hnjiexi.com/m3u8/?url="
+    },
+    {
+      "name": "红牛加速解析",
+      "type": 3,
+      "url": "https://www.hongniujiexi.com/m3u8/?url="
+    },
+    {
+      "name": "新浪P2P加速解析",
+      "type": 3,
+      "url": "https://www.xinlangjiexi.com/m3u8/?url="
     }
   ],
   "filter": {
@@ -96,6 +147,102 @@
       }
     ],
     "juliang": [
+      {
+        "key": "t",
+        "name": "分类",
+        "value": [
+          {"v": "1", "n": "电视剧"},
+          {"v": "2", "n": "电影"},
+          {"v": "17", "n": "动漫"},
+          {"v": "27", "n": "综艺"},
+          {"v": "38", "n": "短剧"},
+          {"v": "39", "n": "预告片"},
+          {"v": "40", "n": "体育赛事"}
+        ]
+      },
+      {
+        "key": "h",
+        "name": "时间",
+        "value": [
+          {"v": "1", "n": "一天内"},
+          {"v": "7", "n": "一周内"},
+          {"v": "30", "n": "一月内"}
+        ]
+      }
+    ],
+    "hongniu": [
+      {
+        "key": "t",
+        "name": "分类",
+        "value": [
+          {"v": "1", "n": "电视剧"},
+          {"v": "2", "n": "电影"},
+          {"v": "17", "n": "动漫"},
+          {"v": "27", "n": "综艺"},
+          {"v": "38", "n": "短剧"},
+          {"v": "39", "n": "预告片"},
+          {"v": "40", "n": "体育赛事"}
+        ]
+      },
+      {
+        "key": "h",
+        "name": "时间",
+        "value": [
+          {"v": "1", "n": "一天内"},
+          {"v": "7", "n": "一周内"},
+          {"v": "30", "n": "一月内"}
+        ]
+      }
+    ],
+    "hongniu_m3u8": [
+      {
+        "key": "t",
+        "name": "分类",
+        "value": [
+          {"v": "1", "n": "电视剧"},
+          {"v": "2", "n": "电影"},
+          {"v": "17", "n": "动漫"},
+          {"v": "27", "n": "综艺"},
+          {"v": "38", "n": "短剧"},
+          {"v": "39", "n": "预告片"},
+          {"v": "40", "n": "体育赛事"}
+        ]
+      },
+      {
+        "key": "h",
+        "name": "时间",
+        "value": [
+          {"v": "1", "n": "一天内"},
+          {"v": "7", "n": "一周内"},
+          {"v": "30", "n": "一月内"}
+        ]
+      }
+    ],
+    "xinlang": [
+      {
+        "key": "t",
+        "name": "分类",
+        "value": [
+          {"v": "1", "n": "电视剧"},
+          {"v": "2", "n": "电影"},
+          {"v": "17", "n": "动漫"},
+          {"v": "27", "n": "综艺"},
+          {"v": "38", "n": "短剧"},
+          {"v": "39", "n": "预告片"},
+          {"v": "40", "n": "体育赛事"}
+        ]
+      },
+      {
+        "key": "h",
+        "name": "时间",
+        "value": [
+          {"v": "1", "n": "一天内"},
+          {"v": "7", "n": "一周内"},
+          {"v": "30", "n": "一月内"}
+        ]
+      }
+    ],
+    "xinlang_m3u8": [
       {
         "key": "t",
         "name": "分类",
