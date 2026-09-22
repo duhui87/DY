@@ -18,6 +18,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "juliang",
+      "name": "巨量资源",
+      "type": 1,
+      "api": "https://api.juliang.live/api/provide/vod/?ac=detail",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "parses": [
@@ -63,6 +72,30 @@
       }
     ],
     "haohuazy_hhyun": [
+      {
+        "key": "t",
+        "name": "分类",
+        "value": [
+          {"v": "1", "n": "电视剧"},
+          {"v": "2", "n": "电影"},
+          {"v": "17", "n": "动漫"},
+          {"v": "27", "n": "综艺"},
+          {"v": "38", "n": "短剧"},
+          {"v": "39", "n": "预告片"},
+          {"v": "40", "n": "体育赛事"}
+        ]
+      },
+      {
+        "key": "h",
+        "name": "时间",
+        "value": [
+          {"v": "1", "n": "一天内"},
+          {"v": "7", "n": "一周内"},
+          {"v": "30", "n": "一月内"}
+        ]
+      }
+    ],
+    "juliang": [
       {
         "key": "t",
         "name": "分类",
