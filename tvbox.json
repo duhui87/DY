@@ -1,15 +1,5 @@
 {
-  "sites": [
-    {
-      "key": "douban_hot",
-      "name": "豆瓣热播（示例点播源）",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    }
-  ],
+  "sites": [],
   "parses": [
     {
       "name": "TXNQ解析",
