@@ -1,10 +1,20 @@
 {
+  "spider": "",
   "sites": [
     {
-      "key": "360_spider",
-      "name": "360资源（测试点播源）",
+      "key": "haohuazy_hhm3u8",
+      "name": "豪华资源M3U8",
       "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod/",
+      "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "haohuazy_hhyun",
+      "name": "豪华资源云播",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/from/hhyun/at/json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -12,79 +22,69 @@
   ],
   "parses": [
     {
-      "name": "TXNQ解析",
-      "type": 0,
-      "url": "https://bfq.txnp.cn/player?url="
+      "name": "豪华资源解析",
+      "type": 3,
+      "url": "https://hhzyjiexi.com/play/?url="
     },
     {
-      "name": "虾米解析",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url="
+      "name": "聚合解析",
+      "type": 3,
+      "url": "jx.xmflv.com/?url="
     },
     {
-      "name": "playm3u8",
-      "type": 0,
-      "url": "https://www.playm3u8.cn/jiexi.php?url="
-    },
-    {
-      "name": "789解析",
-      "type": 0,
-      "url": "https://jiexi.789jiexi.icu:4433/?url="
-    },
-    {
-      "name": "七哥解析",
-      "type": 0,
-      "url": "https://jx.202617.xyz/tv.php?url="
-    },
-    {
-      "name": "fongmi解析",
-      "type": 1,
-      "url": "https://json.fongmi.cc/web?url="
-    },
-    {
-      "name": "冰豆解析",
-      "type": 0,
-      "url": "https://bd.jx.cn/?url="
-    },
-    {
-      "name": "七七云解析",
-      "type": 0,
-      "url": "https://jx.77flv.cc/?url="
-    },
-    {
-      "name": "CK解析",
-      "type": 0,
-      "url": "https://www.ckplayer.vip/jiexi/?url="
-    },
-    {
-      "name": "HLS解析",
-      "type": 0,
-      "url": "https://jx.hls.one/?url="
-    },
-    {
-      "name": "极速解析",
-      "type": 0,
-      "url": "https://jx.2s0.cn/player/?url="
-    },
-    {
-      "name": "花旗解析",
-      "type": 0,
-      "url": "https://www.huaqi.live/?url="
-    },
-    {
-      "name": "Player-JY",
-      "type": 0,
-      "url": "https://jx.playerjy.com/?url="
-    },
-    {
-      "name": "邦宁云解析",
-      "type": 0,
-      "url": "https://video.isyour.love/player/getplayer?url="
-    },
-    {
-      "name": "Yparse",
-      "type": 0,
-      "url": "https://jx.yparse.com/index.php?url="
+      "name": "量子解析",
+      "type": 3,
+      "url": "https://jx.lziapi.com/?url="
     }
-  ]
+  ],
+  "filter": {
+    "haohuazy_hhm3u8": [
+      {
+        "key": "t",
+        "name": "分类",
+        "value": [
+          {"v": "1", "n": "电视剧"},
+          {"v": "2", "n": "电影"},
+          {"v": "17", "n": "动漫"},
+          {"v": "27", "n": "综艺"},
+          {"v": "38", "n": "短剧"},
+          {"v": "39", "n": "预告片"},
+          {"v": "40", "n": "体育赛事"}
+        ]
+      },
+      {
+        "key": "h",
+        "name": "时间",
+        "value": [
+          {"v": "1", "n": "一天内"},
+          {"v": "7", "n": "一周内"},
+          {"v": "30", "n": "一月内"}
+        ]
+      }
+    ],
+    "haohuazy_hhyun": [
+      {
+        "key": "t",
+        "name": "分类",
+        "value": [
+          {"v": "1", "n": "电视剧"},
+          {"v": "2", "n": "电影"},
+          {"v": "17", "n": "动漫"},
+          {"v": "27", "n": "综艺"},
+          {"v": "38", "n": "短剧"},
+          {"v": "39", "n": "预告片"},
+          {"v": "40", "n": "体育赛事"}
+        ]
+      },
+      {
+        "key": "h",
+        "name": "时间",
+        "value": [
+          {"v": "1", "n": "一天内"},
+          {"v": "7", "n": "一周内"},
+          {"v": "30", "n": "一月内"}
+        ]
+      }
+    ]
+  }
 }
